@@ -1,5 +1,5 @@
 # StartingOut
-Hi, everyone. My name is Rebecca. I'm a software developer aspirant. I made this decision after years of considering a career path to pursue after school. I have ambitions to become a full-stack developer and then grow to become a software developer. 
-Follow me on my journey. I will share my difficulties, successes and lessons learned along this path.
+This repository will mostly be for all my mini starting-out projects. I will save my files as a means of tracking my short-term overtime goals.
+If you have any suggestions, advice or would like to collaborate on anything with me, I will love that.
+Thank you.
 
-Let's dive into this together.
