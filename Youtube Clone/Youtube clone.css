@@ -3,11 +3,52 @@ body{
 	margin-bottom: 5%;
 }
 
+
+.main{
+	display:grid;
+	grid-template-columns: repeat(4, 40%);
+	grid-gap: 30px 15px;
+}
+
+.item-info{
+	display: grid;
+	grid-template-columns: 48px 1fr;
+	grid-column-gap: 8px;
+	margin-top: 5px;
+
+}
+
 .thumbnail{
-	width: 50%;
+	width: 100%;
+	border-radius: 5%;
+}
+
+.logo img{
+	border-radius: 50%;
+	width: 90%;
 }
 
 
+a, p{ /*removing format from all links*/
+	text-decoration: none;
+	font-family: "Roboto", Arial, sans-serif;
+}
 
+.title { 
+	color: black;
+	font-weight:500;
+	font-size: 14px;
+	margin-bottom: 1px;
+	margin-top: 0px;
+}
 
-
+.chan_name{
+	color: #606060;
+	font-size: 12px;
+	margin-bottom: 2px;
+}
+.chan_stats{
+	color: #606060;
+	font-size: 12px;
+	margin-top: 2px;
+}
