@@ -1,16 +1,16 @@
-body{
+body{/*The html body*/
 	margin-top: 5%; 
 	margin-bottom: 5%;
 }
 
 
-.main{
+.main{/*The entire content container*/
 	display:grid;
 	grid-template-columns: repeat(4, 40%);
 	grid-gap: 30px 15px;
 }
 
-.item-info{
+.item-info{/*The video details. Introducing sections.*/
 	display: grid;
 	grid-template-columns: 48px 1fr;
 	grid-column-gap: 8px;
@@ -18,12 +18,12 @@ body{
 
 }
 
-.thumbnail{
+.thumbnail{/*content image*/
 	width: 100%;
 	border-radius: 5%;
 }
 
-.logo img{
+.logo img{/*making the logo round*/
 	border-radius: 50%;
 	width: 90%;
 }
@@ -34,7 +34,7 @@ a, p{ /*removing format from all links*/
 	font-family: "Roboto", Arial, sans-serif;
 }
 
-.title { 
+.title {/*The video title*/
 	color: black;
 	font-weight:500;
 	font-size: 14px;
@@ -42,12 +42,12 @@ a, p{ /*removing format from all links*/
 	margin-top: 0px;
 }
 
-.chan_name{
+.chan_name{/*The channel name beside the logo*/
 	color: #606060;
 	font-size: 12px;
 	margin-bottom: 2px;
 }
-.chan_stats{
+.chan_stats{/*The channel video statistics*/
 	color: #606060;
 	font-size: 12px;
 	margin-top: 2px;
