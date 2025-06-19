@@ -10,7 +10,7 @@ body{/*The html body*/
 	grid-gap: 30px 15px;
 }
 
-.item-info{/*The video details. Introducing sections.*/
+.item-info{/*The video details. separating with grid.*/
 	display: grid;
 	grid-template-columns: 48px 1fr;
 	grid-column-gap: 8px;
