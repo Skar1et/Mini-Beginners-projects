@@ -4,7 +4,7 @@ body{/*The html body*/
 
 /*HEADER SECTION*/
 .header{/* setting the html header bar*/
-	height: 55px;
+	height: 60px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
@@ -14,7 +14,7 @@ body{/*The html body*/
 .left{
 	background-color: lightblu;
 	width: 200px;
-	margin-left: 16px;
+	margin-left: 10px;
 	display: flex;
 	align-items: center;
 	align-content: flex-start ;
@@ -37,25 +37,23 @@ body{/*The html body*/
 /*ICONS*/
 #menu-burger{
 	display: inline-block;
-	width: 30px;
-
+	height: 24px;
+	margin-left: 24px;
+  margin-right: 24px;
 }
 
 .icon-text img{
-	width: 30px;
+	width: 90px;
 	margin-right: 3px;
-	margin-left: 20px;	
 }
-.icon-text{
-	margin-top: 0;
-	display: flex; /* Enable flexbox for the link */
-  align-items: center; /* Center the icon and text */
-  text-decoration: none; /* Remove underline */
-  color: inherit;
-	font-weight: bold;
-	font-size: 21px;
-	line-height: -2px;
+#ghtag{
+	display: inline-block;/* Make it inline-block for transformation to be able to adjust the height*/
+	text-decoration: none;
+	color: rgb(59, 57, 57);
+	font-size: 12px;
+  transform: translateY(-10px); /* Adjust this value to raise it higher */
 }
+
 
 
 /*CONTENT SECTION*/
@@ -79,7 +77,7 @@ body{/*The html body*/
 
 .thumbnail{/*content image*/
 	width: 100%;
-	border-radius: 5%;
+	border-radius: 3%;
 }
 
 .logo img{/*making the logo round*/
