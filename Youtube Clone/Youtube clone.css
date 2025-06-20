@@ -89,7 +89,7 @@ body{/*The html body*/
 }
 
 #voice-img{
-	width: 54%;
+	width: 80%;
 	height: auto;
 }
 .voicesearch{
@@ -98,9 +98,10 @@ body{/*The html body*/
 	align-items: center;
 	background-color:  #f8f8f8;
 	border-radius: 50px;
-	width: 40px;
-	height: 40px;
+	width: 42px;
+	height: 42px;
 	margin-left: 10px;
+	border: none;
 }
 
 #create-button{
@@ -114,13 +115,34 @@ body{/*The html body*/
 }
 #create-button img{
 	height: 30px;
-	fill: black;
+	
 }
 #create-text{
 	font-weight: bold;
 	font-size: 13.5px;
 	color:#1f1e1e;
 }
+
+#bell-button{
+  background-color: transparent;
+	border-radius: 50px;
+	width: 42px;
+	height: 42px;
+	margin-left: 10px;
+	border: none;	
+}
+#bell-button:hover{
+  background-color:  #f0f0f0;	
+}
+
+#bell-button img{
+	width: 80%;
+	height: auto;
+}
+
+
+
+
 
 /*CONTENT SECTION*/
 .main{/*The entire content container*/
