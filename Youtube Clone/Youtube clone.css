@@ -147,7 +147,7 @@ body{/*The html body*/
 /*CONTENT SECTION*/
 .main{/*The entire content container*/
 	display:grid;
-	grid-template-columns: repeat(4, 30%);
+	grid-template-columns: repeat(4, 1fr);
 	grid-gap: 20px 15px;
 }
 
